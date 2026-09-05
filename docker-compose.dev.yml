@@ -1,5 +1,5 @@
-# Applied automatically by `docker compose up` for local development.
-# Production: docker compose -f docker-compose.yml up --build
+# Local development overlay — not applied automatically.
+# Usage: docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
 services:
   frontend:
     build:
