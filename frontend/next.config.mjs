@@ -1,4 +1,4 @@
-const allowedDevOrigins = (process.env.ALLOWED_DEV_ORIGINS || '172.29.209.245')
+const allowedDevOrigins = (process.env.ALLOWED_DEV_ORIGINS || '192.168.137.10')
   .split(',')
   .map((origin) => origin.trim())
   .filter(Boolean)
